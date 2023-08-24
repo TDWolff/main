@@ -23,5 +23,6 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 ## COME CHECK OUT MY GITHUB!
 
 Github: [My Github](https://github.com/TDWolff)
+<img src="mylogo.png" alt="My Logo Image" />
 
 If Links Not Working - https://github.com/TDWolff
