@@ -21,7 +21,7 @@ At the end of the day I left feeling defeated. Code 1 - Torin 0.
 
 ### The Fix
 -Start of the next day, I got to work figuring out what was going on. I searched high and low, google and in my files to find the cause, and then. I found it. Hidden inside of the MakeFile, I saw it.
-```MakeFile
+```makefile
 # Convert .md file, if .ipynb file is newer
 $(DESTINATION_DIRECTORY)/%_IPYNB_2_.md: _notebooks/%.ipynb
 	@echo "Converting source $< to destination $@"
@@ -33,7 +33,7 @@ The fix was right there staring me in the face. I ran a quick command in termina
 python3 --version
 ```
 I quickly hopped back into the MakeFile and added 1 number.
-```MakeFile
+```makefile
 # Convert .md file, if .ipynb file is newer
 $(DESTINATION_DIRECTORY)/%_IPYNB_2_.md: _notebooks/%.ipynb
 	@echo "Converting source $< to destination $@"
