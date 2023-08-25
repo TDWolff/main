@@ -10,7 +10,7 @@ courses: { csp: {week: 1, categories: [4.A]} }
 
 ### Week 1
 -Throughout week 1 I went in thinking I got this in the bag, I soon realized this is gonna be a bit harder than I thought.
-I realized that I was not the best coder in the world, that I was not the great coder my assumptions had lead me to, but I persevered. I pushed my self and soon I understood what i was doing.
+I realized that I was not the best coder in the world, that I was not the great coder my assumptions had lead me to, but I persevered. I pushed my self and soon I understood what I was doing.
 
 ### The Beginning
 -Starting off strong, I copied the student repo from the [Teacher Repo](https://nighthawkcoders.github.io/teacher/) and followed the instructions to make my website. I didn't have any struggles till I had to use the Make command in terminal. I kept getting an error.
