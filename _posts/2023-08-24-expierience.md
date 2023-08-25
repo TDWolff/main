@@ -33,7 +33,7 @@ The fix was right there staring me in the face. I ran a quick command in termina
 python3 --version
 ```
 I quickly hopped back into the MakeFile and added 1 number.
-```MakeFile #4
+```MakeFile
 # Convert .md file, if .ipynb file is newer
 $(DESTINATION_DIRECTORY)/%_IPYNB_2_.md: _notebooks/%.ipynb
 	@echo "Converting source $< to destination $@"
