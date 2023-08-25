@@ -42,5 +42,5 @@ $(DESTINATION_DIRECTORY)/%_IPYNB_2_.md: _notebooks/%.ipynb
 And......
 
 
-IT WORKED. I finally could use the make command to make my server!
+IT WORKED. I finally could use the make command to make my server! The error was being caused by the fact that the MakeFile didn't know wether to use the Python3 that came pre-installed on my laptop or to use the newly installed python 2.7.16 and all I needed to do was to help it by clarifying to use python3.
 
